@@ -26,13 +26,15 @@ skills:
  - Python
  - C
  - Oracle SQL
- - Arduino / Raspberry Pi
+ - Arduino
+ - Raspberry Pi
  - Git
  - AWS
  - Spring MVC
  - Maven
- - AWS
  - Android Studio
+ - Process Automation
+ - Utility App Development
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
@@ -45,15 +47,15 @@ roles:
    employer: NRI Fintech India Pvt. Ltd.
    description: Start as Associate Software Engineer - I, spent the first 3 years of professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" taget="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" taget="_blank">EIG</a>.
  - title: Intern
-   start: 2017 (Jan)
-   end: 2017 (Feb)
+   start: 2017
+   end: 2017
    employer: NRI Fintech India Pvt. Ltd.
-   description: An application was designed and developed titled Test Case Generator System for generating all possible test cases for a given screen of another application.
+   description: One month of internship (Jan-Feb). An application was designed and developed titled Test Case Generator System for generating all possible test cases for a given screen of another application.
  - title: Intern
-   start: 2016 (Jun)
-   end: 2016 (Aug)
+   start: 2016
+   end: 2016
    employer: Tata Consultancy Services (EIS)
-   description: A web portal was made for managing assets & human resources.
+   description: 2+ months of internship (Jun-Aug). A web portal was made for managing assets & human resources.
 
 #Education is required
 education:
