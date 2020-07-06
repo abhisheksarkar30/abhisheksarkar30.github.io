@@ -44,29 +44,29 @@ roles:
  - title: Software Engineer
    start: 2017
    end: Ongoing
-   employer: NRI Fintech India Pvt. Ltd.
-   description: Start as Associate Software Engineer - I, spent the first 3 years of professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" taget="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" taget="_blank">EIG</a>.
+   employer: NRI Fintech India
+   description: Started as Associate Software Engineer - I, spent the first 3 years of professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
  - title: Intern
    start: 2017
    end: 2017
-   employer: NRI Fintech India Pvt. Ltd.
+   employer: NRI Fintech India
    description: One month of internship (Jan-Feb). An application was designed and developed titled Test Case Generator System for generating all possible test cases for a given screen of another application.
  - title: Intern
    start: 2016
    end: 2016
-   employer: Tata Consultancy Services (EIS)
-   description: 2+ months of internship (Jun-Aug). A web portal was made for managing assets & human resources.
+   employer: Tata Consultancy Services
+   description: 2+ months of internship (Jun-Aug) in the EIS department. A web portal was made for managing assets & human resources.
 
 #Education is required
 education:
  - level: Bachelor of Technology (B.Tech.)
    date: 2013
    subject: Electronics and Communication Engineering (ECE)
-   school: MCKV Institute of Engineering, Liluah, Howrah
+   school: MCKV Institute of Engineering
  - level: High School
    date: 2000
    subject: Science
-   school: Julien day School, Ganganagar, Madhyamgram
+   school: Julien day School
 
 #This section is optional (as is the image link below)
 # coursera:
