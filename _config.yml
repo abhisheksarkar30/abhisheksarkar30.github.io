@@ -58,12 +58,7 @@ roles:
    start: 2017
    end: 2021
    employer: NRI Fintech India
-   description: Started as Associate Software Engineer - I, spent the first four years of my professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
- - title: Intern
-   start: 2017
-   end: 2017
-   employer: NRI Fintech India
-   description: One month of internship (Jan-Feb) in the JP Delivery department. An application was designed and developed titled Test Case Generator System for generating all possible test cases for a given screen of another application.
+   description: Joined after a one-month internship (Jan-Feb) in the JP Delivery department, where I built the Test Case Generator System, and stayed on as Associate Software Engineer - I — the first four years of my professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
  - title: Intern
    start: 2016
    end: 2016
