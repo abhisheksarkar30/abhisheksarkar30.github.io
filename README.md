@@ -1,24 +1,68 @@
-# NerdAbility - A CV Generator
-A Jekyll based CV page generator based on the user profile page on Nerdability.
+# abhisheksarkar30.github.io
 
-You can checkout the page generated for this repo here: https://robhinds.github.io
+My personal CV / portfolio site, served by GitHub Pages at
+**https://abhisheksarkar30.github.io**.
 
-A few years agao I helped create a devloper CV webapp that let users sign up and connect lots of online footprints to make a dynamic online CV (formerly nerdability.com, now parked at: http://nerdability.github.io/ ), and I thought why not just create a static site generated version that re-created the user profile CV.  Luckily, GitHub provides native support for Jekyll sites as part of its user pages (https://{{yourusername}}.github.io), so as well as hosting the Jekyll project on GitHub, it also automatically builds and serves the site for you on a nice share-able URL.
+It's a Jekyll site: one content file (`_config.yml`) feeding a set of HTML partials.
+Pushing to the default branch is all it takes to publish — GitHub Pages builds and
+deploys on push, so nothing generated is ever committed (see `.gitignore`).
 
+The repo also hosts privacy pages for my Android apps, since Play Store listings
+need a public URL for them.
 
-## Making your own CV
+## Pages
 
-To make your own GitHub hosted CV:
+| Path | What it is |
+| --- | --- |
+| `/` | The CV/portfolio front page — intro, skills, work experience, education, featured GitHub projects |
+| `/online-cv` | A print-friendly, single-page CV (`online-cv.html`) |
+| `/call-blocker-privacy` | Privacy policy for the ABS Call Blocker app |
 
-1. Fork this repo into your github account 
-2. Click the "Settings" button in your new forked repository (in the menu on the right), and change the repository's name to {{yourusername}}.github.io, replacing yourusername with your GitHub user name.
-3. Update /_config.yml with the details of your CV - the comments will explain what is required
-4. Visit https://{{yourusername}}.github.io to check it out
-5. Share your new CV/Profile with the world!
+## Editing the content
 
+All the copy lives in [`_config.yml`](_config.yml). Normal updates don't require
+touching any HTML:
 
-If you want to test it locally, install Ruby & Jekyll, clone the repository locally and run "jekyll serve" from the repo root directoy.
+- `primarylinks` — the navbar links
+- `intro`, `additionalinfo` — the free-text blocks on the front page
+- `skills` — the skill list
+- `roles` — work experience
+- `education` — schools and degrees
+- `github` — which repositories get featured
+- `coursera`, `speakerdeck`, `stackoverflow`, `blogfeed` — optional sections; they
+  ship commented out, so uncomment and fill them in to enable
 
-If you want to host the page on your own web hosting, you will need to run it locally and jekyll will build the site files to the /_site directory which you can then push to your hosting provider - See https://jekyllrb.com/ for details.
+`index.html` is just a list of `_includes/section_*.html` partials, so adding a new
+block to the page means adding an include there.
 
+## Running it locally
 
+GitHub Pages builds this remotely, so a local run is only for previewing changes.
+There is no `Gemfile` — the Pages build uses its own toolchain — so either install
+Jekyll yourself or use the container:
+
+```bash
+# with Jekyll installed
+jekyll serve            # http://localhost:4000
+
+# or, containerised
+docker run --rm -it -p 4000:4000 -v "$PWD":/srv/jekyll -w /srv/jekyll \
+  jekyll/jekyll jekyll serve
+```
+
+## Layout
+
+```
+_config.yml              all site content
+index.html               front page, assembled from partials
+online-cv.html           standalone printable CV
+call-blocker-privacy.md  app privacy policy
+_includes/               section_*.html partials, plus head/header/footer
+_layouts/default.html    the single layout every page uses
+css/  js/  img/          styles, scripts, images
+```
+
+## Credits
+
+The CV layout started from Rob Hinds' NerdAbility CV generator and has been adapted
+since. Licensed under the [MIT License](LICENSE).
