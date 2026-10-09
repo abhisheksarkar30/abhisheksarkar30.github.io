@@ -49,11 +49,16 @@ skills:
 
 #Work experience is required
 roles:
+ - title: Senior Software Engineer
+   start: 2021
+   end: Ongoing
+   employer: EPAM Systems India
+   description: Joined in August 2021. Java and Spring backend engineering, and more recently agentic AI tooling — Claude Code plugins, MCP servers and AI-assisted development workflows.
  - title: Software Engineer - I
    start: 2017
-   end: Ongoing
+   end: 2021
    employer: NRI Fintech India
-   description: Started as Associate Software Engineer - I, spent the first 3 years of professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
+   description: Started as Associate Software Engineer - I, spent the first four years of my professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
  - title: Intern
    start: 2017
    end: 2017
