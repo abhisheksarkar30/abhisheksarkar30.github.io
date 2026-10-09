@@ -24,19 +24,25 @@ primarylinks:
 skills:
  - Java
  - Python
+ - Go
+ - TypeScript
+ - Kotlin
+ - Android
+ - C# / .NET
  - C
  - Oracle PL/SQL
- - Arduino
- - Raspberry Pi
+ - Spring MVC
+ - REST
+ - Maven
  - Git
  - AWS
- - Spring MVC
- - Maven
- - Jasper Reports
- - REST
- - Android Studio
+ - Claude Code
+ - MCP
+ - LLM Observability
  - Process Automation
- - Utility Application
+ - Arduino
+ - Raspberry Pi
+ - Jasper Reports
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
@@ -97,6 +103,10 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
+ - abhisheksarkar30/agentic-keepawake
+ - abhisheksarkar30/claude-lens
+ - abhisheksarkar30/deepseek-lens
+ - abhisheksarkar30/claude-deal-scout
  - abhisheksarkar30/abhisheksarkar30.github.io
  - abhisheksarkar30/codevita
  - abhisheksarkar30/java-tests
@@ -116,18 +126,18 @@ github:
    # flairimageurl: https://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am a Software engineer with 3 years of profound experience working in industry, around 7 years on technology. I have primarily worked on the Java, but have worked across a broad range of technologies thereon: Python, C, Oracle PL/SQL, Git, Maven and most recently AWS. <br/><br/>
-  As well as spending a reasonable amount of time building applications for process automation, which has given me an exposure to the mentioned languages considerably, as well to a range of scripting languages such as PowerShell, Python scripting, etc and for robotics a bit of Android Development as well.<br/><br/>
-  I have been working as an Open-Source contributor for last 2 years and passionate about sharing and gaining knowledge on technology.
+  Software engineer working in the industry since 2017, primarily in Java, and across a broad range of technologies since: Python, Go, TypeScript, Kotlin, C#/.NET, Oracle PL/SQL, AWS, Git and Maven. <br/><br/>
+  Much of my recent work goes into agentic AI tooling — Claude Code plugins, MCP servers, and local proxies that record what an LLM request sent, what came back, what it cost and which parameters were silently dropped — alongside Kotlin/Jetpack Compose Android apps and cross-platform desktop tools.<br/><br/>
+  I have been contributing to open source for years, and am passionate about sharing and gaining knowledge on technology.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks. I have worked with Spring, Java AWT package in addition to others. <br/><br/>
-   <strong>Python</strong>: I have used Python as a language in Utility Application development like gite app(git extra command set). <br/><br/>
-   <strong>Spring Framework</strong>: I have used Spring Framework for more than 3 years, designed various web apps for company and my own personal use. <br/><br/>
-   <strong>Cloud platforms</strong>: I have primarily used AWS for learning purpose of Cloud Computing along with keeping it for production use in company. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, S3, beanstalk, Lambda, etc.<br/><br/>
-   <strong>App Development</strong>: Through building web applications, I have also worked with other technology, having used git, maven, and even Android app development for robotics purpose.<br/><br/>
-   <strong>Embedded</strong>: For college days and for my passion for IoT, I have worked on microcontrollers(Arduino/AVR) and micro-computers/SBCs i.e. Raspberry Pi for various automation projects <br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with CVS, Git, Maven, etc. I have experience with Selenium as well.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android and cloud platforms such as AWS. <br/><br/>
-   As part of Open-Source Contributor, I created, and am now primary contributor to, quite a number of github/gitlab projects including both public/private repositories, passionate of sharing and gaining knowledge. 
+   <strong>Java</strong>: experienced across a variety of Java APIs and frameworks, Spring in particular. <br/><br/>
+   <strong>Go</strong>: my language of choice for local tooling — the Claude Lens and deepseek-lens proxies are each a single Go binary. <br/><br/>
+   <strong>AI and agentic tooling</strong>: I build Claude Code plugins, skills and hooks, MCP servers for databases, and local proxies that record what a request sent, what came back, what it cost and which parameters were dropped. <br/><br/>
+   <strong>Android</strong>: Kotlin with Jetpack Compose, used to build a file locker, call blocker, parental-control and expense-splitter app. <br/><br/>
+   <strong>Python</strong>: utility applications and scripting, including gite (a git extra command set) and AWS Lambda workloads. <br/><br/>
+   <strong>Cloud platforms</strong>: AWS — EC2, S3, Beanstalk, Lambda, CloudFront and IAM — for both learning and production use.<br/><br/>
+   <strong>Embedded</strong>: from college days and a lasting interest in IoT, microcontrollers (Arduino/AVR) and single-board computers such as Raspberry Pi.<br/><br/>
+   <strong>Development Control</strong>: application life-cycle management with CVS, Git and Maven, plus Selenium and GitHub Actions CI.<br/><br/>
+   As an open-source contributor I have created, and remain the primary contributor to, a number of GitHub and GitLab projects, public and private — I am passionate about sharing and gaining knowledge.
