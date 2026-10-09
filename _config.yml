@@ -53,12 +53,12 @@ roles:
    start: 2021
    end: Ongoing
    employer: EPAM Systems India
-   description: Joined in August 2021. Java and Spring backend engineering, and more recently agentic AI tooling — Claude Code plugins, MCP servers and AI-assisted development workflows.
- - title: Software Engineer - I
+   description: Joined in August 2021 as Software Engineer A2, promoted to Senior Software Engineer A3 in 2022. Java and Spring backend engineering, and more recently agentic AI tooling — Claude Code plugins, MCP servers and AI-assisted development workflows.
+ - title: Software Engineer - II
    start: 2017
    end: 2021
    employer: NRI Fintech India
-   description: Joined after a one-month internship (Jan-Feb) in the JP Delivery department, where I built the Test Case Generator System, and stayed on as Associate Software Engineer - I — the first four years of my professional career. Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
+   description: Joined after a one-month internship (Jan-Feb) in the JP Delivery department, where I built the Test Case Generator System, then started full-time as Associate Software Engineer - I — promoted to Associate Software Engineer - II (2018), Software Engineer - I (2019) and Software Engineer - II (2020). Products include <a href="http://www.nrifintech.com/solution-for-broker-dealers.html" target="_blank">I-STAR/GV</a> & <a href="http://www.nrifintech.com/enterprise-integration-gateway.html" target="_blank">EIG</a>.
  - title: Intern
    start: 2016
    end: 2016
@@ -68,13 +68,15 @@ roles:
 #Education is required
 education:
  - level: Bachelor of Technology (B.Tech.)
-   date: 2013
+   date: 2017
    subject: Electronics and Communication Engineering (ECE)
    school: MCKV Institute of Engineering
+   note: Studied 2013-2017. Started out at St Xavier's College, Kolkata in July 2013 before transferring to MCKV the following month.
  - level: High School
-   date: 2000
-   subject: Science
+   date: 2013
+   subject: ISC (Class 12) - Science
    school: Julien Day School
+   note: Joined at Kindergarten in 2000 and passed out of Class 12 / ISC in 2013.
 
 #This section is optional (as is the image link below)
 # coursera:
