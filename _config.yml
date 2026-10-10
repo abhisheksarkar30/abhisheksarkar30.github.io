@@ -56,7 +56,7 @@ roles:
    sortyear: 9999
    employer: EPAM Systems India
    description: Joined in August 2021 as Software Engineer A2, promoted to Senior Software Engineer A3 in 2022. Java and Spring backend engineering, and more recently agentic AI tooling — Claude Code plugins, MCP servers and AI-assisted development workflows.
- - title: Software Engineer - II
+ - title: Software Engineer II
    start: 2017
    end: 2021
    year: 2021
@@ -73,7 +73,7 @@ roles:
 
 #Education is required
 education:
- - level: B.Tech.
+ - level: Bachelor of Technology (B.Tech.)
    year: 2017
    sortyear: 2017
    subject: Electronics and Communication Engineering (ECE)
