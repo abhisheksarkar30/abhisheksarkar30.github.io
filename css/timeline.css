@@ -127,3 +127,22 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .timeline:nth-child(5n) .year:before{border-right-color:#337ab7}
 .main-timeline4 .inner-content{padding:10px}
 }
+
+/******************* Layout robustness overrides *******************/
+/* The demo above pairs the entries by float packing and offsets them with
+   nth-child margins hand-tuned for one particular entry count. That collapses
+   as soon as the count or the text lengths change: entries collide and the
+   zig-zag side flips. Pairing is made explicit below - an odd entry clears and
+   starts a new row, its even sibling packs beside it - and the offsets are
+   uniform, so the layout no longer depends on how many entries there are. */
+@media (min-width:768px){
+.main-timeline4 .timeline{min-height:140px}
+.main-timeline4 .timeline:nth-child(odd){clear:both;margin:0}
+.main-timeline4 .timeline:nth-child(even){margin:110px 0 0}
+/* Repeat of the rule above on purpose: the demo resets the last entry with
+   .timeline:last-child:nth-child(even){margin:0}, which outranks the rule by
+   one class. Dropping this lets the final even entry sit level with its
+   partner and collide with the row above. */
+.main-timeline4 .timeline:nth-child(even):last-child{margin:110px 0 0}
+}
+.main-timeline4 .title{overflow-wrap:break-word}
